@@ -4,6 +4,10 @@
   --primary-color: #010207;
   --secondary-color: #fcfcfc;
   --third-color: #aaaaaa;
+  --primary-size: 100px;
+  --secondary-size: 50px;
+  --third-size: 30px;
+  --peragraph-size1: 20px;
 }
 * {
   margin: 0;
@@ -30,7 +34,23 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-
+.btn {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 13px 20px;
+  font-size: var(--third-size);
+  font-weight: 400;
+  border-radius: 32px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--secondary-color);
+}
 /* utility class */
 
 /* nav bar  */
@@ -52,7 +72,7 @@ nav ul li a {
   display: block;
   margin: 0px 30px;
   padding: 20px;
-  font-size: 20px;
+  font-size: var(--peragraph-size1);
   color: var(--third-color);
   transition: all 0.3s ease-in;
   cursor: pointer;
@@ -77,3 +97,194 @@ nav .cart svg:hover {
 }
 
 /* nav bar  */
+
+/* earth - hero - banner */
+header {
+  padding: 6rem 0;
+}
+.earth-banner {
+  background-image: url(./images/earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -62%;
+}
+.hero-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.img-text {
+  color: var(--secondary-color);
+  font-size: var(--primary-size);
+  font-weight: 300;
+  letter-spacing: 25px;
+}
+.hero-content img {
+  max-width: 95px;
+  margin-right: 13px;
+  display: inline;
+}
+
+/* earth - hero - banner */
+
+/* our - blog & NEWS*/
+.top-content {
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-content h4 {
+  font-size: var(--third-size);
+  font-weight: 300;
+  margin: 0 0 1rem 0;
+}
+.top-content h3 {
+  font-size: var(--secondary-size);
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+.top-content p {
+  font-size: var(--peragraph-size1);
+  font-weight: 300;
+  padding: 0% 25% 0% 25%;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.blogs {
+  color: var(--secondary-color);
+}
+.blog-1-3 {
+  flex-basis: 33%;
+  max-width: 33%;
+  padding: 0 1rem 0 1rem;
+}
+.blog-img {
+  overflow: hidden;
+  padding: 1rem 0;
+  position: relative;
+}
+.blog-img img {
+  max-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 10/6;
+  transition: all 0.3s ease-in;
+}
+.blog-img img:hover {
+  transform: skew(2deg, 0deg);
+  opacity: 0.7;
+}
+.blog-date {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.blog-date h5 {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 8px 20px;
+  font-size: 20px;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.blog-date h5 span {
+  font-weight: 500;
+}
+.blog-date h5:hover {
+  background: transparent;
+  color: var(--secondary-color);
+}
+.blog-content {
+  padding: 0 0 2rem 1.5rem;
+  overflow: hidden;
+}
+.blog-content h4 {
+  font-size: var(--third-size);
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
+}
+
+.blog-content p {
+  margin: 0 0 0.5rem 0;
+  font-size: var(--peragraph-size1);
+  font-weight: 300;
+}
+.blog-content a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+.blog-content a:hover {
+  color: var(--third-color);
+}
+.blog-section {
+  padding: 0 0 3rem 0;
+}
+/* our - blog & NEWS*/
+
+/* OUR BLOG PAGE HEADER - SECTION */
+.blog-page-container {
+  padding: 2rem 0 3rem 0;
+}
+.blog-page-content {
+  flex-basis: 49%;
+  max-width: 49%;
+  padding: 0 2rem;
+  color: var(--secondary-color);
+}
+.blog-page-img {
+  flex-basis: 49%;
+  max-width: 49%;
+  position: relative;
+}
+.blog-page-img h6 {
+  position: absolute;
+  color: var(--secondary-color);
+  font-size: var(--peragraph-size1);
+  font-weight: 300;
+}
+.blog-page-img .fst-moment {
+  top: 27px;
+  left: 148px;
+}
+.blog-page-img .snd-moment {
+  top: 250px;
+  left: 131px;
+}
+.blog-page-img .thrd-moment {
+  top: 185px;
+  right: 35px;
+}
+.blog-page-img img {
+  max-width: 70%;
+}
+.blog-page-content h2 {
+  font-size: var(--primary-size);
+  font-weight: 300;
+  margin: 0 0 2rem 0;
+}
+.blog-page-content p {
+  font-size: var(--peragraph-size1);
+  margin: 0 0 2rem 0;
+}
+.blog-page-content h4 {
+  color: var(--secondary-color) !important;
+  word-spacing: 20px;
+  font-size: var(--third-size);
+}
+.blog-page-content h4 span {
+  color: var(--third-color);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.blog-page-content h4 span:hover {
+  color: var(--secondary-color);
+}
+
+/* OUR BLOG PAGE HEADER - SECTION */
