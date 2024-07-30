@@ -4,6 +4,7 @@
   --primary-color: #010207;
   --secondary-color: #fcfcfc;
   --third-color: #aaaaaa;
+  --long-primary-size: 100px;
   --primary-size: 100px;
   --secondary-size: 50px;
   --third-size: 30px;
@@ -40,16 +41,18 @@ body {
   outline: none;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  padding: 13px 20px;
+  padding: 10px 40px;
   font-size: var(--third-size);
   font-weight: 400;
   border-radius: 32px;
+  display: block;
   border: none;
   transition: all 0.3s ease;
 }
 .btn:hover {
   background-color: transparent;
   color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 /* utility class */
 
@@ -129,6 +132,43 @@ header {
 
 /* earth - hero - banner */
 
+/* Grow section  */
+
+.grow-head {
+  color: var(--secondary-color);
+  text-align: center;
+  margin: 0 0 25px 0;
+  font-size: var(--secondary-size);
+  font-weight: 300;
+}
+.grow-content {
+  padding: 0 0 3rem 0;
+}
+
+.c-1-4 {
+  flex-basis: 23%;
+  flex-direction: column;
+  max-width: 23%;
+}
+.c-1-4 img {
+  width: 27%;
+  margin: 0 0 15px 0;
+  filter: brightness(200%) contrast(200%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+}
+.c-1-4 h5 {
+  color: var(--secondary-color);
+  font-size: var(--third-size);
+  font-weight: 200;
+  margin: 0 0 15px 0;
+}
+.c-1-4 p {
+  font-size: var(--peragraph-size1);
+  color: var(--secondary-color);
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+/* Grow section  */
 /* our - blog & NEWS*/
 .top-content {
   color: var(--secondary-color);
@@ -288,3 +328,22 @@ header {
 }
 
 /* OUR BLOG PAGE HEADER - SECTION */
+
+/*  signle page content  */
+
+.single-page-content {
+  padding: 1rem 2rem;
+  color: var(--secondary-color);
+}
+.single-page-content h1 {
+  font-size: var(--primary-size);
+  font-weight: 100;
+  letter-spacing: 26px;
+  margin: 0 0 20px 0;
+}
+.single-page-content p {
+  font-size: var(--peragraph-size1);
+  font-weight: 300;
+}
+
+/*  signle page content  */
