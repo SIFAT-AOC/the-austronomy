@@ -180,17 +180,17 @@ header {
   position: relative;
 }
 .fs-1-content {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
   position: absolute;
   top: 20%;
-  right: 0%;
+  right: 7%;
 }
 .fs-1-content h6 {
   font-size: 25px;
@@ -204,7 +204,7 @@ header {
 }
 .fs-1-content p {
   font-size: var(--peragraph-size1);
-  margin: 0 0 8px 0;
+  margin: 0 0 22px 0;
 }
 
 /* feature secction 1  */
