@@ -20,6 +20,8 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  opacity: 0;
+  transition: opacity 3s;
 }
 /* utility class */
 .flex {
@@ -170,7 +172,7 @@ header {
 }
 /* Grow section  */
 
-/* feature secction 1  */
+/* feature section 1  */
 .fs-1-bg-img {
   background-image: url(./images/sky.jpg);
   background-repeat: no-repeat;
@@ -207,8 +209,38 @@ header {
   margin: 0 0 22px 0;
 }
 
-/* feature secction 1  */
+/* feature section 1  */
 
+.fs-2 {
+}
+.fs-2 h4 {
+}
+.fs-2 h5 {
+}
+.fs-2 p {
+}
+
+.fs-2-col-sec {
+}
+.fs-2-col-1 {
+}
+.fs-2-col-3 {
+}
+.fs-2-col-1,
+.fs-2-col-3 img {
+}
+.fs-2-col-1,
+.fs-2-col-3 h4 {
+}
+.fs-2-col-1,
+.fs-2-col-3 p {
+}
+.fs-2-col-1,
+.fs-2-col-3 a {
+}
+/*  feature secction 2  */
+
+/*  feature secction 2  */
 /* our - blog & NEWS*/
 .top-content {
   color: var(--secondary-color);
@@ -252,10 +284,10 @@ header {
   max-width: 100%;
   object-fit: cover;
   aspect-ratio: 10/6;
-  transition: all 0.3s ease-in;
+  transition: all 0.5s ease-in;
 }
 .blog-img img:hover {
-  transform: skew(2deg, 0deg);
+  transform: scale(1.1);
   opacity: 0.7;
 }
 .blog-date {
