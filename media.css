@@ -105,7 +105,7 @@
   /* feature section 3 */
 
   .top-content {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .top-content p {
     padding: 0;
@@ -135,7 +135,10 @@
   }
 
   /* blog page */
-
+  .blog-page-img img {
+    max-width: 90%;
+    margin-top: 2rem;
+  }
   .blog-page-content {
     flex-basis: 100%;
     max-width: 100%;
@@ -151,15 +154,15 @@
   }
 
   .blog-page-img .fst-moment {
-    top: 15px;
+    top: 44px;
     left: 50px;
   }
   .blog-page-img .thrd-moment {
-    top: 90px;
-    right: 17px;
+    top: 175px;
+    right: 11px;
   }
   .blog-page-img .snd-moment {
-    top: 166px;
+    top: 212px;
     left: 30px;
   }
   .blog-section {
@@ -174,7 +177,7 @@
 
   .top-content h3 {
     font-size: var(--third-size);
-    margin: 0 0 0px 0;
+    margin: 0 0 11px 0;
   }
   .single-page-content {
     padding: 1rem;
