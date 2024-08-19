@@ -1,0 +1,176 @@
+@media (max-width: 768px) {
+  #desktopNav {
+    display: none;
+  }
+  #mobileNav {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    display: block;
+  }
+  .mb-logo img {
+    max-width: 60%;
+  }
+  .mb-menu {
+    flex-basis: 95%;
+    max-width: 95%;
+    justify-content: center;
+  }
+  .mb-logo {
+    flex-basis: 68%;
+    max-width: 68%;
+    text-align: center;
+  }
+  nav ul li a {
+    margin: 7px 14px;
+    padding: 9px;
+  }
+
+  /* earth banner part */
+  .earth-banner {
+    background-position: center;
+    height: 100vh;
+  }
+  .hero-content {
+    height: 0;
+  }
+  .img-text {
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+
+  .hero-content img {
+    max-width: 45px;
+    margin-right: 13px;
+  }
+  .c-1-4 {
+    flex-basis: 90%;
+    flex-direction: column;
+    max-width: 90%;
+    margin-bottom: 20px;
+    padding: 1rem 0;
+  }
+
+  /* feature section 1 */
+  .fs-1-bg-img {
+    aspect-ratio: 12/12;
+  }
+  .fs-1-content {
+    width: 88%;
+    padding: 1rem;
+    top: 16%;
+    right: 6%;
+  }
+  .fs-1-content h6 {
+    font-size: 19px;
+  }
+  .fs-1-content p {
+    font-size: 16px;
+  }
+  .btn {
+    padding: 9px 29px;
+  }
+
+  /* feature section 2 */
+
+  .fs-2 h4 {
+    font-size: 34px;
+  }
+
+  .fs-2 p {
+    font-size: 16px;
+  }
+  .fs-2 {
+    padding: 1rem;
+  }
+  .fs-2-col-sec {
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .fs-2-col-1 {
+    flex-basis: 95%;
+    max-width: 95%;
+  }
+
+  .fs-2-col-3 {
+    flex-basis: 95%;
+    max-width: 95%;
+  }
+
+  /* feature section 3 */
+
+  .top-content {
+    padding: 1rem;
+  }
+  .top-content p {
+    padding: 0;
+  }
+
+  .blog-1-3 {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 0 1rem 0 1rem;
+  }
+  .footer-content {
+    padding: 1rem;
+  }
+  .footer-content .c-2-5 {
+    flex-basis: 90%;
+    max-width: 90%;
+  }
+  .footer-content .c-1-5 {
+    flex-basis: 90%;
+    padding: 0;
+    max-width: 90%;
+  }
+  .c-5-5 {
+    flex-basis: 90%;
+    max-width: 90%;
+    margin-top: 2rem;
+  }
+
+  /* blog page */
+
+  .blog-page-content {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .blog-page-img {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .blog-page-container {
+    gap: 1rem;
+  }
+
+  .blog-page-img .fst-moment {
+    top: 15px;
+    left: 50px;
+  }
+  .blog-page-img .thrd-moment {
+    top: 90px;
+    right: 17px;
+  }
+  .blog-page-img .snd-moment {
+    top: 166px;
+    left: 30px;
+  }
+  .blog-section {
+    padding: 0 0 0rem 0;
+  }
+
+  /* single page  */
+  .single-page-content h1 {
+    font-size: var(--third-size);
+    letter-spacing: 14px;
+  }
+
+  .top-content h3 {
+    font-size: var(--third-size);
+    margin: 0 0 0px 0;
+  }
+}
